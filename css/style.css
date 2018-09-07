@@ -1,0 +1,18 @@
+body {
+    background: #333;
+    color: #fff;
+    text-align: center;
+
+}
+h1.name{
+  font-size: 100px;
+  font-style: normal;
+  font-family: fantasy;
+
+}
+.align{
+  text-align: center;
+}
+h1{
+  font-family: fantasy;
+}
