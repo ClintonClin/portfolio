@@ -4,15 +4,38 @@ body {
     text-align: center;
 
 }
+@font-face {
+  font-family: 'ProstoOne-Regular';
+  src: url('ProstoOne-Regular.eot');
+  src: url('ProstoOne-Regular.eot?#iefix') format('embedded-opentype'),
+       url('ProstoOne-Regular.woff') format('woff'),
+       url('ProstoOne-Regular.ttf') format('truetype'),
+       url('ProstoOne-Regular.svg#ProstoOne-Regular') format('svg');
+}
+
+.fontpro,.fontpro-36187 {
+  font-family: 'ProstoOne-Regular',sans-serif;
+}
 h1.name{
   font-size: 100px;
   font-style: normal;
-  font-family: fantasy;
+  font-family: serif;
+  font-weight: bold;
+  color:#14B7CB;
+
 
 }
 .align{
   text-align: center;
 }
 h1{
-  font-family: fantasy;
+  font-family: sans-serif;
+
+}
+p{
+  font-size: 20px;
+}
+img{
+  width: 400px;
+  height: 400px;
 }
