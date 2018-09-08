@@ -1,10 +1,10 @@
 body {
     background: #333;
     color: #fff;
-    text-align: center;
+    text-align: left;
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    font-size: 25spx;
 
 }
 
@@ -12,11 +12,12 @@ body {
   font-family: 'ProstoOne-Regular',sans-serif;
 }
 h1.name{
-  font-size: 90px;
+  font-size: 80px;
   font-style: normal;
   font-family: 'Cinzel', serif;
   font-weight: bold;
   color:#14B7CB;
+  text-align: center;
 
 }
 .align{
@@ -28,22 +29,31 @@ p{
 img{
   width: 400px;
   height: 400px;
-  top: 30%;
+  margin: 2px auto;
+  display: block;
 
 }
 h1.header{
-  
+  font-size: 40px;
   color: #36D0E3;
+  text-align: center;
 }
 section{
   display block;
-  max-width: 600px;
+  max-width: 1000px;
   background: #2C3D51;
   margin: 0 auto 1em;
   position:: relative
-  font-family: 'Great Vibes', cursive;;
+
 
 }
 .vibes{
-  font-family: 'Satisfy', cursive;
+  font-family: 'Poiret One', cursive;
+}
+h2{
+  text-align: center;
+  color: #dc006c
+}
+ul{
+  list-style-type: none;
 }
