@@ -2,35 +2,25 @@ body {
     background: #333;
     color: #fff;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
 
-}
-@font-face {
-  font-family: 'ProstoOne-Regular';
-  src: url('ProstoOne-Regular.eot');
-  src: url('ProstoOne-Regular.eot?#iefix') format('embedded-opentype'),
-       url('ProstoOne-Regular.woff') format('woff'),
-       url('ProstoOne-Regular.ttf') format('truetype'),
-       url('ProstoOne-Regular.svg#ProstoOne-Regular') format('svg');
 }
 
 .fontpro,.fontpro-36187 {
   font-family: 'ProstoOne-Regular',sans-serif;
 }
 h1.name{
-  font-size: 100px;
+  font-size: 90px;
   font-style: normal;
-  font-family: serif;
+  font-family: 'Cinzel', serif;
   font-weight: bold;
   color:#14B7CB;
-
 
 }
 .align{
   text-align: center;
-}
-h1{
-  font-family: sans-serif;
-
 }
 p{
   font-size: 20px;
@@ -38,4 +28,22 @@ p{
 img{
   width: 400px;
   height: 400px;
+  top: 30%;
+
+}
+h1.header{
+  
+  color: #36D0E3;
+}
+section{
+  display block;
+  max-width: 600px;
+  background: #2C3D51;
+  margin: 0 auto 1em;
+  position:: relative
+  font-family: 'Great Vibes', cursive;;
+
+}
+.vibes{
+  font-family: 'Satisfy', cursive;
 }
