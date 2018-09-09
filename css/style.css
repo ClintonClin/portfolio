@@ -21,7 +21,7 @@ h1.name{
 
 }
 .align{
-  text-align: center;
+  text-align: left;
 }
 p{
   font-size: 20px;
@@ -35,7 +35,7 @@ img{
 
 
 }
-h1.header{
+h1{
   font-size: 40px;
   color: #36D0E3;
   text-align: center;
@@ -45,7 +45,7 @@ section{
   max-width: 1000px;
   background: #2C3D51;
   margin: 0 auto 1em;
-  position:: relative
+  position: relative
 
 
 }
@@ -58,4 +58,10 @@ h2{
 }
 ul{
   list-style-type: none;
+}
+.pic{
+  width: 150px;
+  height: 150px;
+  float: left;
+
 }
